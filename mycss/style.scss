@@ -1,0 +1,204 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-laracamp{
+    background-color: #F4DFC2;
+    nav{
+        .container-fluid{
+            margin-top: 6px;
+            margin-bottom: 17px;
+            margin-right: 80px;
+            margin-left: 80px;
+
+            .collapse{
+                ul{
+                    .nav-item{
+                        margin-right: 32px;
+
+                        .nav-link{
+                            font-size: 25px;
+                        }
+                        
+                    }
+                }
+
+                .navbar-brand{
+                    margin-right: 129px;
+                    margin-left: 162px;
+                    font-size: 30px;
+                    font-family: 'Inknut Antiqua', serif;
+                }
+
+                .d-flex{
+                    margin-right: 20px;
+                    padding-right: 80PX;
+
+                   .navbar-nav{
+                        .nav-item{
+                            margin-right: 20px;
+
+                            .nav-link{
+                                font-size: 25px;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+
+.hero-section{
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .d-flex{
+        margin-top: 32px;
+        margin-left: 328px;
+        margin-right: 308px;
+
+        .form-control{
+            border: 1px;
+            border-radius: 30px;
+            background-color: #D9D9D9B2;
+            font-size: 35px;
+        }
+
+    }
+    
+    h2{
+        text-align: center;
+        margin-top: 181px;
+        font-size: 60px;
+        color: white;
+    }
+
+    .btn-shop{
+        padding: 10px 30px;
+        margin-top: 50px;
+        margin-left: 570px;
+        background-color: white;
+        color: black;
+        font-size: 17px;
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+.desc{
+    margin-top: 447px;
+    margin-bottom: 207px;
+    p{
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+}
+
+.section-3{
+    margin-bottom: 219px;
+    img{
+        width: 100%;
+    }
+}
+
+.section-4{
+    h1{
+        text-align: center;
+        margin-bottom: 41.5px;
+    }
+
+    .tittle2{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 84.5px;
+    }
+
+    .hijab{
+        margin-left: 205px;
+    }
+}
+
+
+.section-5{
+    background-color: #A48372;
+    margin-top: 222px;
+    margin-bottom: 66px;
+    .container{
+        .row{
+            .col-1{
+                .card{
+                    color: white;
+                    margin-top: 50px;
+                    border: none;
+                    border-radius: 0;
+                    background-color: transparent;
+
+                    .card-title{
+                        font-size: 30px;
+                    }
+
+                    .card-body{
+                        .btn{
+                            margin-bottom: 67px;
+                            margin-top: 20px;
+                            padding: 10px 30px;
+                            background-color: white;
+                            color: black;
+                            font-size: 17px;
+                            border-radius: 10px;
+                            border: none;
+                        }
+                    }
+                }
+
+            }
+        }
+        .col{
+            color: white;
+            font-size: 30px;
+            margin-left: 400px;
+        }
+    }
+}
+
+.footer{
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: black;
+    margin-top: 86px;
+    .container-fluid{
+        padding-left: 71px;
+        padding-top: 44px;
+        color: white;
+
+        .row{
+            .col{
+                p{
+                    margin-top: 29px ;
+                    font-size: 20px;
+                }
+
+                ul{
+                    margin-top: 29px;
+                    font-size: 20px;
+                }
+
+                img{
+                    margin-top: 29px;
+                }
+            }
+        }
+    }
+}
